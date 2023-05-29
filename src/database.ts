@@ -1,7 +1,7 @@
 import { Pool } from "pg";
 
 const config = {
-  host: "18.233.8.164",
+  host: "3.86.139.15",
   port: 5432,
   user: "postgres",
   database: "api",

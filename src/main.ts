@@ -15,7 +15,7 @@ function boostrap() {
   app.use(cors());
   app.use(bodyParser.json());
   app.use("/health", healthRouter);
-  app.use("/games", gameRouter);
+  app.use("/", gameRouter);
 
   const { port } = config.server;
 
